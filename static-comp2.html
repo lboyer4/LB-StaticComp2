@@ -8,97 +8,188 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="sidebar"></div>
-		<nav>
-			<div class="hamburger"><i class="fas fa-hamburger"></i>
+		<section class="sidebar">
+			<div class = "sidebar-profile">
+				<img src="Images/headshot2.jpeg" alt="headshot of a woman" class="sidebar-headshot">
+				<p>Newton Barley</p>	
+			<hr  />
 			</div>
-			<input class="search" placeholder=" Search for a job, task, or resume"></input></nav>
-			<div class="user"><i class="fas fa-user-plus"></i>
-			</div>
-		</nav>
-		<header>
-			<h1>Customer Service Representative</h1>
-			<h5>  <i class="fas fa-map-marker-alt"></i> San Fransisco, CA </h5>
-			<h5 class="preview"> <link>Preview this post</link></h5>
-		</header>
-		<div class= "tab">
-			<p class="tabs">Summary</p>
-			<p class="tabs">Applicants</p>
-			<p class="tabs">Job Board</p>
-			<p class="tabs">Interviews</p>
-			<p class="tabs">Activity</p>
-			<p class="tabs">Broadcast</p>
-			<p class="tabs">Notifications</p>
+			<div class= "main-menu">
+				<h4>Main</h4>
+				<ul type = "none">
+					<li><i class="fas fa-home"></i> HOME</li>
+					<li><i class="fas fa-briefcase"></i> JOBS</li>
+					<li><i class="fas fa-file"></i> RESUMES</li>
+					<li><i class="fas fa-tasks"></i> TASKS</li>
+					<li><i class="fas fa-calendar-alt"></i> CALENDAR</li>
+				</ul>
+			<hr  />
+				<h4>Admin</h4>
+				<ul type = "none">
+					<li><i class="fas fa-users"></i> USERS</li>
+					<li><i class="fas fa-map-marker-alt"></i> LOCATIONS</li>
+					<li><i class="fas fa-building"></i> WORKFLOWS</li>
+					<li> <i class="fas fa-clipboard-list"></i> JOBBOARDS</li>
+					<li><i class="fas fa-code-branch"></i> SOCIAL</li>
+				</ul>
+			<hr  />
+				<h4>Categories</h4>
+	<section class= "lowest-side-bar">
+		<ul>
+			<li>
+  			<input class = "check" type="checkbox" id="scales" name="scales"
+         checked>
+  			<label for="scales">Scales</label>
+ 		 	</li>
+  		<li>
+    		<input  class= "check" type="checkbox" id="music" name="interest[]" value="music">
+    		<label for="music">Design</label>
+   		</li>
+   		<li>
+				<input  class="check" type= "checkbox" name = "blue-box">
+				<label>Administrative</label>
+			</li>
+			<li>
+				<input class ="check" type="checkbox" name= "yellow-box">Executive
+			</li>
+			<li>
+				<input class = "check" type= "checkbox" name= "red-box">Human Resources
+			</li>
+		</ul>
+		</section>
+	</section>
+	<nav>
+		<div class="user">
+			<svg class= "nav-pic" class="svg-inline--fa fa-hamburger fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hamburger" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M464 256H48a48 48 0 0 0 0 96h416a48 48 0 0 0 0-96zm16 128H32a16 16 0 0 0-16 16v16a64 64 0 0 0 64 64h352a64 64 0 0 0 64-64v-16a16 16 0 0 0-16-16zM58.64 224h394.72c34.57 0 54.62-43.9 34.82-75.88C448 83.2 359.55 32.1 256 32c-103.54.1-192 51.2-232.18 116.11C4 180.09 24.07 224 58.64 224zM384 112a16 16 0 1 1-16 16 16 16 0 0 1 16-16zM256 80a16 16 0 1 1-16 16 16 16 0 0 1 16-16zm-128 32a16 16 0 1 1-16 16 16 16 0 0 1 16-16z"></path></svg>
 		</div>
-			<section class="graphs">
-				<article class="circles">
-					<div class="applicants"></div>
-					<div class="interviews"></div>
-					<div class="forwards"></div>
-				</article>
-				<article class="graph">
-					<img src="Images/graph-static2.png">
-				</article>
-				<button class="totals">Totals</button>
-				<button class="apply">Applicants</button>
-			</section>
-			<div class="line"><i class="fas fa-chevron-circle-up"></i></div>
-				<article class="table">
-				<table>
-					<tr> 
-						<th> Job Description</th>
-						<th> <button> Edit </button></th>
-					</tr>
-					<tr>
-						<td>Position</td>
-						<td>Supreme Commander</td>
-					</tr>
-					<tr>
-						<td>Location</td>
-						<td>Fargo, ND</td>
-					</tr>
-					<tr>
-							<td>Employment Type</td>
-							<td> Full-time</td>
-					</tr>
-					<tr> 
-						<td>Experience</td>
-						<td>Professional</td>
-					</tr>
-					<tr>
-						<td>Status</td>
-						<td>Open</td>
-					</tr>
-					<tr>
-						<td>Description</td>
-						<td>blah blah blah</td>
-					</tr>
-					<tr> 
-						<td>Hiring Lead</td>
-						<td>Bruce Springsteen</td>
-					</tr>
-					<tr>
-						<td>Approved Salary</td>
-						<td>$58,000,000</td>
-					</tr>
-				</table>
-			</article>
-			<article class="links">
-				<button class="facebook">Post to Facebook</button>
-				<button class="twitter">Tweet This Job</button>
-				<button class="linkedin">Post to Linkedin</button>
-				<h3><i class="fas fa-globe-africa"></i> Link to this job</h3>
-				<p> blah blah blah</p>
-				<input> </input><button class="copy">Copy</button>
-				<hr  />
-				<h3><i class="far fa-image"></i> Use the Button Widget</h3>
-				<p> blah blah blah</p>
-				<input> </input><button class="copy">Copy</button>
-				<hr  />
-				<h3><i class="fas fa-paper-plane"></i> Upload Resume</h3>
-				<p> blah blah blah</p>
-				<input></input>
-			</article>
-
-	</body>
+			<input class="search" placeholder=" Search for a job, task, or resume"></input>
+		<div class="user">
+			<svg class="nav-pic"class="svg-inline--fa fa-user-plus fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M624 208h-64v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64h-64c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h64v64c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64h64c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm-400 48c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg>
+			</div>
+			<div class="user">
+				<svg  class = "nav-pic" class="svg-inline--fa fa-comment-alt fa-w-16" aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 7.1 5.8 12 12 12 2.4 0 4.9-.7 7.1-2.4L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zm16 352c0 8.8-7.2 16-16 16H288l-12.8 9.6L208 428v-60H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16h384c8.8 0 16 7.2 16 16v288z"></path></svg>
+			</div>
+			<div class="user">
+				<svg class="nav-pic" class="svg-inline--fa fa-th fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="th" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"></path></svg>
+		</div>
+	</nav>
+	<header>
+		<h1>Customer Service Representative</h1>
+		<h5> <i class="fas fa-map-marker-alt"></i> San Fransisco, CA </h5>
+		<h5 class="preview"> <link>Preview this post</link></h5>
+	</header>
+	<section class="open">
+		<p class="open-text">
+			<i class="fas fa-circle"></i> OPEN 
+		</p>
+		<p class="pen">
+			<i class="fas fa-pen"></i>
+		</p>
+		<p class="pen">
+			<i class="fas fa-tag"></i>
+		</p>
+		<p class="pen"
+		><i class="fas fa-trash-alt"></i>
+	</p>
+	</section>
+	<div class= "tab">
+		<p class="tabs">Summary</p>
+		<p class="tabs">Applicants</p>
+		<p class="tabs">Job Board</p>
+		<p class="tabs">Interviews</p>
+		<p class="tabs">Activity</p>
+		<p class="tabs">Broadcast</p>
+		<p class="tabs">Notifications</p>
+	</div>
+	<section class="graphs">
+		<article class="circles">
+			<div class="applicants">
+				<p><span>3,154<span></p><p class="circle-graph">APPLICANTS</p>
+			</div>
+			<div class="interviews">
+				<p><span>1,546</span></p><p class="circle-graph">INTERVIEWS</p>
+			</div>
+			<div class="forwards">
+				<p><span>912</span></p><p class="circle-graph">FORWARDS</p>
+			</div>
+		</article>
+		<article class="graph">
+			<img src="Images/graph-static2.png">
+		</article>
+		<button class="totals">TOTALS - Out of 5,231 views</button>
+		<button class="apply">APPLICANTS/DAY</button>
+	</section>
+	<div class="line">
+		<i class="mid-line"class="fas fa-chevron-circle-up"></i>
+	</div>
+	<article class="table">
+		<table border="1|0">
+			<tr> 
+				<th colspan = "2"> Job Description
+					<button class="edit-button"><i class="fas fa-pen"></i> Edit </button>
+				</th>
+			</tr>
+			<tr>
+				<td>Position</td>
+				<td>Supreme Commander</td>
+			</tr>
+			<tr>
+				<td>Location</td>
+				<td>Fargo, ND</td>
+			</tr>
+			<tr>
+				<td>Employment Type</td>
+				<td> Full-time</td>
+			</tr>
+			<tr> 
+				<td>Experience</td>
+				<td>Professional</td>
+			</tr>
+			<tr>
+				<td>Status</td>
+				<td>Open</td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>blah blah blah</td>
+			</tr>
+			<tr> 
+				<td>Hiring Lead</td>
+				<td>Bruce Springsteen</td>
+			</tr>
+			<tr>
+				<td>Approved Salary</td>
+				<td>$58,000,000</td>
+			</tr>
+		</table>
+	</article>
+	<article class="links">
+		<button class="facebook">Post to Facebook</button>
+		<button class="twitter">Tweet This Job
+		</button>
+		<button class="linkedin">Post to Linkedin</button>
+		<h3>
+			<i class="fas fa-globe-africa"></i> Link to this job
+		</h3>
+			<p>Here is a link for the site that you are now viewing.</p>
+		<input value= "http://insertemailaddress.com"> 
+		</input>
+		<button class="copy">Copy</button>
+	<hr  />
+		<h3>
+			<i class="far fa-image"></i> Use the Button Widget
+		</h3>
+		<p>The widget embeds the buttons for sharing the job for submitting a resume on your website. </p>
+		<input value = "<script type= text/javascript/etc>"> 
+		</input>
+		<button class="copy">Copy</button>
+	<hr  />
+		<h3>
+			<i class="fas fa-paper-plane"></i> Upload Resume
+		</h3>
+			<p>You can automatically upload multiple resoures to this job by emailing thi address below</p>
+		<input class="resume" value= "BSpringsteen@gmail.com">
+		</input>
+	</article>
+</body>
 </html>
